@@ -1,0 +1,97 @@
+.App {
+      font-family: 'Arial', sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 30px;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .App h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2.5em;
+    }
+
+    .App input[type='text'] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1em;
+      box-sizing: border-box;
+    }
+
+    .App input[type='text']:focus {
+      border-color: #50a3e2;
+      outline: none;
+      box-shadow: 0 0 8px rgba(80, 163, 226, 0.3);
+    }
+
+    .App button {
+      background-color: #50a3e2;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .App button:hover {
+      background-color: #3a8cd9;
+    }
+
+    .App ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .App li {
+      background-color: #fff;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .App li span {
+      flex-grow: 1;
+      margin-left: 15px;
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    .App li input[type='checkbox'] {
+      width: 20px;
+      height: 20px;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .App li button {
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: background-color 0.3s ease;
+    }
+
+    .App li button:hover {
+      background-color: #c0392b;
+    }
+
+    .App li div {
+      display: flex;
+      align-items: center;
+    }

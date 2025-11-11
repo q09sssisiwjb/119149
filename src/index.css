@@ -1,0 +1,55 @@
+body {
+      font-family: sans-serif;
+    }
+
+    .App {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .App h1 {
+      text-align: center;
+    }
+
+    .App input[type='text'] {
+      width: 70%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .App button {
+      padding: 10px 15px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .App button:hover {
+      background-color: #0056b3;
+    }
+
+    .App ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .App li {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .App li:last-child {
+      border-bottom: none;
+    }
+
+    .App li input[type='checkbox'] {
+      margin-right: 10px;
+    }
